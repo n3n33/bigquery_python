@@ -12,6 +12,6 @@ GCP Service Account Key Downloads
 
 echo "export GOOGLE_APPLICATION_CREDENTIALS="your_gcp_service_account_key_location"" >> ~/.bash_profile
 
-source ~/.bash_porfile
+source ~/.bash_profile
 
 echo $GOOGLE_APPLICATION_CREDENTIALS
