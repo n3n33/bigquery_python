@@ -1,7 +1,6 @@
 # bigquery_python
-Start
 
-## GCP SDK Install
+## 1. GCP SDK Install
 wget https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-437.0.1-darwin-arm.tar.gz?hl=ko
 
 tar xvzf ./google-cloud-cli-437.0.1-darwin-arm.tar.gz
@@ -16,5 +15,3 @@ echo "export GOOGLE_APPLICATION_CREDENTIALS="your_gcp_service_account_key_locati
 source ~/.bash_porfile
 
 echo $GOOGLE_APPLICATION_CREDENTIALS
-
-End
