@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+from google.cloud import bigquery
+import pandas as pd
+
+client = bigquery.Client()
+
+parquet_file = '/your/parquet/file/path'
+df = pd.read_parquet(parquet_file)
+
+project_id = 'your_project_name'
+dataset_id = 'your_dataset_name'
+table_id = 'table_name'
+
+destination_table = f"{project_id}.{dataset_id}.{table_id}"
+
+df.to_gbq(destination_table, project_id=project_id, if_exists='append')
