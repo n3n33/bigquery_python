@@ -30,5 +30,3 @@ My Python Version is 3.9.6 On Apple Silicon
 ```
 pip install google-cloud-bigquery
 ```
-
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fn3n33%2Fbigquery_python&count_bg=%23D1D7CD&title_bg=%2351DB21&icon=&icon_color=%23E7E7E7&title=python-for-bigquery&edge_flat=true)](https://hits.seeyoufarm.com)
